@@ -1,11 +1,11 @@
 class BarsController < ApplicationController
   def show
-    log
+    create unless @bar
     # This action will render app/views/bars/show.html.erb
   end
 
-  def log
-    # Log something
+  def create
+    # Create the Bar instance
     # This method is just here to support the show action
   end
 end
