@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   end
 
   resource :foo, only: [:show, :edit, :update]
+  resource :bar, only: [:show]
 
   # Defines the root path route ("/")
   root "pages#index"

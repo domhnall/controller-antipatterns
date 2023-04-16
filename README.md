@@ -12,3 +12,9 @@ To run the project:
 ```
 > bin/rails s
 ```
+
+To run traceroute:
+
+```
+> rake traceroute
+```
